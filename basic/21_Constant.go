@@ -28,7 +28,7 @@ func main() {
 	// 	Saturday  = 7
 	// )//! ^ Declare like this is hard code
 
-	//* iota : assign integer to variable start from 0
+	//* iota : GENERATOR => assign integer to variable start from 0
 	const (
 		_ = iota // dont need value 0
 		Sunday
